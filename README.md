@@ -14,10 +14,10 @@ We are given 3 resource files:
 ### Functions
 There are four functions we wrote to accomplish our goal:
 
-**ETL_function_test.ipynb** - An ETL function that reads our three data files
+**ETL_function_test** - An ETL function that reads our three data files
 
-**ETL_clean_wiki_movies.ipynb** - Extracts and Transforms the Wikipedia Data
+**ETL_clean_wiki_movies** - Extracts and Transforms the Wikipedia Data
 
-**ETL_clean_kaggle_data.ipynb** - Extracts and Transforms the Kaggle Data then merges it with the transformed wikipedia data into a Pandas DataFrame
+**ETL_clean_kaggle_data** - Extracts and Transforms the Kaggle Data then merges it with the transformed wikipedia data into a Pandas DataFrame
 
-**ETL_create_database.ipynb** - Imports the DataFrame into a PostgreSQL movie database
+**ETL_create_database** - Imports the DataFrame into a PostgreSQL movie database
